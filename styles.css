@@ -1,0 +1,74 @@
+/* Style the tab headers */
+.toggle-button {
+	-fx-background-color: white;
+	-fx-text-fill: black;
+}
+
+.toggle-button:hover {
+	-fx-cursor: hand;
+	-fx-border-width: 0 0 2 0; /* 2px border at the bottom, 0px for other sides */
+    -fx-border-color: black; /* Border color */
+}
+
+.toggle-button:selected {
+	-fx-text-fill: #1668e3;
+	-fx-border-width: 0 0 2 0; /* 2px border at the bottom, 0px for other sides */
+    -fx-border-color: #1668e3; /* Border color */
+}
+
+.toggle-group {
+	-fx-background-color: white;
+	-fx-alignment: CENTER;
+}
+
+.searchBtn {
+	-fx-color: #1668e3;
+}
+
+.overviewModule {
+	 -fx-margin: 80;
+    -fx-padding: 50;
+}
+
+.overview-category {
+    -fx-background-color: #E0E0E0;
+    -fx-padding: 20px;
+}
+
+.overview-grid {
+    -fx-padding: 10px;
+}
+
+.overview-content, .billings-content {
+    -fx-padding: 20px;
+}
+
+.search-box {
+	-fx-border-color: black; -fx-border-width: 1; -fx-padding: 10;
+	    -fx-background-radius: 10;
+}
+
+.ship-box {
+	-fx-border-color: black; -fx-border-width: 1; -fx-padding: 10;
+	    -fx-background-radius: 10;
+}
+
+.cruises-buttons {
+	-fx-margin: 20px;
+}
+
+
+.cruise-search-label {
+	-fx-margin: 1000px;
+}
+
+/* styles.css */
+.welcome-label {
+    -fx-font-size: 36px; /* Adjust the font size as needed */
+    -fx-font-weight: bold;
+    -fx-text-alignment: center; /* Center-align the text */
+    -fx-text-fill: #333; /* Text color */
+    -fx-text-fill: #333; /* Add a subtle text shadow */
+    -fx-text-alignment: center; /* Center-align the text */
+    -fx-wrap-text: true; /* Enable text wrapping */
+}
